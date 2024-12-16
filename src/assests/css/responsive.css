@@ -1,0 +1,713 @@
+
+.container {
+ 
+  max-width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 10% !important; 
+  padding-right: 10% !important; 
+}
+  
+  /* Small Screen Size */
+  
+  @media only screen and (min-width: 480px) {
+    .container {
+      max-width: 90%;
+      padding: 0 1rem;
+    }
+  
+    html {
+      font-size: 62.9%;
+    }
+  
+    .dividor_hero {
+      background-color: rgb(255,176,86);
+      height: 0.2rem;
+      margin-top: 5%;
+      margin-bottom: 10%;
+      position: relative;
+      display: flex;
+      justify-content: center;
+    }
+  
+    /* Header Section */
+    .header_section {
+      height: 65vh;
+    }
+
+    header {
+      width: 96%;
+      left: 2%;
+    }
+    /* Header Section Ends Here */
+
+      /* Our Achievement Sections */
+      .gallery_section {
+        padding: 20% 6% 14% 6%;
+      }
+  
+      /* Our Achievement Sections End Here */
+
+    /* Footer Section */
+    footer .footer_one_categories {
+      display: grid;
+      place-items: center;
+    }
+
+    
+    /* Competition Images */
+      
+    .competition_achievement_images img {
+      height: 25rem;
+   }
+
+  
+  }
+  
+  @media only screen and (min-width: 640px) {
+    body .body_section {
+      padding: 2rem;
+    }
+
+    .container {
+      max-width: 90%;
+      padding: 0rem 1rem;
+    }
+  
+    .dividor_hero {
+      background-color: rgb(255,176,86);
+      height: 0.2rem;
+      margin-top: 5%;
+      margin-bottom: 5%;
+      position: relative;
+      display: flex;
+      justify-content: center;
+    }
+  
+  /* Hero Section Information */
+  .hero_section_information {
+    top: 23dvw;
+  }
+
+    /* Our Instructors Details */
+    .our_instructors_images {
+      gap: 8%;
+      margin-top: 5%;
+    }
+    
+    .our_instructors_image {
+      width: 14rem;
+      height: 37dvw;
+    }
+  
+  
+    .our_instructors_images .our_instructors_image img {
+      right: 1%;
+      width: 25dvw;
+    }
+
+    /* Competition Images */
+      
+     .competition_achievement_images img {
+       height: 29rem;
+    }
+
+  
+  }
+  
+  @media only screen and (min-width: 768px) {
+    body .body_section {
+      padding: 4rem;
+    }
+
+    .container {
+      max-width: 85%;
+      padding: 0rem 2rem;
+    }
+  
+    html {
+      font-size: 68.7%;
+    }
+  
+    /* Header Section */
+    header {
+      width: 90%;
+      left: 5%;
+    }
+
+    .header_section {
+      height: 50vh;
+    }
+
+
+    header .navigation_section {
+      padding: 0 7% 0 4% !important
+  }
+  
+    /* Header Section Ends Here */
+
+    /* Hero Section */
+    .dividor {
+      margin-top: 5%;
+      margin-bottom: 5%;
+    }
+   
+    .header_section {
+      height: 70dvw;
+    }
+  
+    header {
+      width: 92%;
+      left: 4%;
+    }
+
+    /* Hero Section Ends Here */
+  
+    /* Our Program Section */
+    .our_programs_card_details {
+      padding: 4.5rem 2rem;
+    }
+  
+    .our_programs_card_details h3 {
+      font-size: 2rem;
+    }
+  
+    .our_programs_card_details p {
+      font-size: 1.5rem;
+    }
+  
+    /* Our Instructors Details */
+    .our_instructors_images {
+      gap: 3%;
+      margin-top: 9%;
+    }
+    
+    .our_instructors_image {
+      width: 15rem;
+      height: 32dvw;
+    }
+  
+  
+    .our_instructors_images .our_instructors_image img {
+      right: 1%;
+      width: 22dvw;
+    }
+  
+    /* Our Community */
+     .our_community_section {
+      height: 40vh;
+
+     }
+    /* Competition And Achievement Section */
+     
+      /* Competition Images */
+      
+      .competition_achievement_images img {
+        height: 33rem;
+     }
+ 
+  
+    /* Why Us Section */
+  
+    /* Join Us Section */
+  
+    /* Footer Section */
+  }
+  
+  @media only screen and (min-width: 1024px) {
+    .container {
+      max-width: 85%;
+    }
+  
+    html {
+      font-size: 68.9%;
+      scroll-padding: 12vmax;
+    }
+  
+    .dividor_hero {
+      margin-top: 5%;
+      margin-bottom: 4%;
+    }
+  
+    .dividor {
+      margin: 11vh 0vh 5vh 0vh;
+    }
+
+    .competition_achievement_section {
+      height: 100%;
+    }
+
+  
+    /* Height view for all menus */
+       .our_instructors_sections,
+       .our_community_section
+        {
+        height: 90vh;
+        box-sizing: border-box;
+        height: fit-content;
+       }
+
+    /* Height view for al menus end here */
+  
+    /* header */
+    .navigation_menu,
+    .nav_links {
+      display: none;
+    }
+  
+    .nav_links {
+      display: flex;
+    }
+  
+    .navigation_section {
+      top: 4dvw;
+     }
+
+    .nav_links.active {
+      background-color: none;
+    }
+  
+    .nav_links ul {
+      display: flex;
+      flex-direction: row;
+      gap: 2rem;
+    }
+  
+    .nav_links nav ul a {
+      font-weight: 500;
+    }
+  
+    .nav_links.active {
+      position: static;
+      width: auto;
+      height: auto;
+      display: flex;
+      justify-content: flex-start;
+      top: auto;
+      left: auto;
+      background-color: transparent;
+      z-index: auto;
+    }
+  
+    .nav_links.active nav {
+      width: fit-content;
+    }
+  
+    .nav_links.active nav ul {
+      display: flex;
+      flex-direction: row; /* Display the navigation links horizontally */
+      background-color: transparent;
+      padding: 0;
+      border-radius: 0;
+      margin: 0;
+    }
+  
+    .header_section {
+      height: 100vh;
+    }
+    
+    .hero_section_information {
+      top: 20dvw;
+    }
+
+    .head_content p {
+      font-weight: 700;
+      font-size: 3rem;
+    }
+
+    header {
+      width: 94%;
+      left: 2.9%;
+    }
+
+    /* cicrle starts here */
+    .circle {
+      width: 23rem; 
+      height: 23rem; 
+      border-radius: 50%;
+      position: absolute;
+      top: 1.5%;
+      right: -5%;
+      transform: rotate(15deg);
+      z-index: 11;
+     
+    }
+    
+    .circle::before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      height: 100%;
+      background: repeating-linear-gradient(
+          to right,
+          rgb(188,177,160, 0.5) ,
+          rgb(188,177,160, 0.5) ,
+           .3rem,
+          transparent 0.2rem,
+          transparent 0.8rem
+      );
+      border-radius: 50%;
+    }
+
+    .circle_top {
+      right: 30%;
+    }
+
+    /* circle ends here */
+  
+    /* Hero Section */
+    .hero_section_information {
+      display: grid;
+      grid-template-columns: 40vw;
+      margin-top: 24vh;
+    }
+  
+    /* Our Programs Card */
+    .our_programs_cards {
+      display: grid;
+      row-gap: 2rem;
+      column-gap: 2rem;
+      grid-template-columns: 49% 49%;
+      padding: 0 0.6rem;
+    }
+  
+    /* Our Instructors */
+ 
+    /* Our Instructors Details */
+    .our_instructors_details {
+      display: grid;
+      grid-template-columns: 56% 40%;
+      column-gap: 3rem;
+      /* margin-top: -67px; */
+    }
+
+    .our_instructors_images {
+      gap: 4%;
+      margin-top: 11%;
+      height: fit-content;
+    }
+    
+    .our_instructors_image {
+      width: 15rem;
+      height: 24dvw;
+    }
+  
+  
+    .our_instructors_images .our_instructors_image img {
+      right: 1%;
+      width: 16dvw;
+    }
+
+    .article {
+      text-align: center;
+    }
+  
+    /* Our Community */
+    .our_community_information {
+      display: grid;
+      grid-template-columns: 79%;
+      text-align: center;
+      place-content: center;
+      height: 60vh;
+    }
+
+    #our_communities {
+      height: 90vh;
+    }
+    /* Our community ends here */
+  
+    /* Competition and achievement */
+    .competition_achievement_images .competition_achievement_images_slider {
+      place-content: center;
+      /* padding: 0 0.5rem; */
+      display: grid;
+      grid-template-columns: 30% 30% 30%;
+      column-gap: 2rem;
+    }
+  
+    .competition_achievement_information article {
+      padding: 0 12rem;
+    }
+
+    .gallery_section {
+      padding: 9%;
+  }
+
+  #gallery {
+    height: 100%;
+  }
+
+    /* Competition Images */
+      .competition_achievement_images img {
+        height: 16rem;
+     }
+  
+    /* Why Us */
+  
+    .choose_us_why_title {
+      display: grid;
+      grid-template-columns: 40%;
+    }
+  
+    .choose_us_card::after {
+      content: "";
+      height: 0;
+      width: 0;
+    }
+  
+    .choose_us_cards .row_reverse {
+      display: grid;
+      grid-template-columns: 40% 50%;
+      column-gap: 9rem;
+      place-content: center;
+      text-align: right;
+      margin-left: 15vh;
+  
+    }
+  
+    .choose_us_cards .row {
+      display: grid;
+      grid-template-columns: 50% 40%;
+      place-content: center;
+      column-gap: 9rem;
+      text-align: left;
+      margin-right: 15vh;
+    }
+  
+    .choose_us_cards .row :nth-child(2) {
+      grid-row-start: 1;
+    }
+  
+    .choose_us_card_information .choose_us_card_content {
+      font-size: 1.6rem;
+      font-weight: 400;
+      margin-top: 1rem;
+    }
+  
+    /* Footer */
+    footer .footer_one_categories {
+      display: flex;
+      justify-content: space-between;
+      text-align: left;
+    }
+    
+    footer .footer_category_social_medias, footer .footer_category_content {
+      width: 100%;
+    }
+/* 
+    footer .footer_one #contactUs {
+      display: grid;
+      
+    } */
+    
+  }
+
+  /* Footer Section  Ends Here */
+  
+  @media only screen and (min-width: 1280px) {
+    .container {
+      max-width: 90%;
+    }
+  
+    html {
+      font-size: 72%;
+    }
+  
+    /* Hero Section */
+    .header_section {
+      height: 82vh;
+    }
+    
+    .hero_section_information {
+      top: 15dvw;
+    }
+
+    /* Our Instructors Details */
+    .our_instructors_images {
+      gap: 3%;
+      margin-top: 6%;
+    }
+    
+    .our_instructors_image {
+      width: 14rem;
+      height: 20dvw;
+    }
+  
+  
+    .our_instructors_images .our_instructors_image img {
+      right: 1%;
+      width: 13dvw;
+    }
+
+      /* Competition Images */
+      
+      .competition_achievement_images img {
+        height: 20rem;
+     }
+    
+  }
+    
+  
+  
+  
+  @media only screen and (min-width: 1536px) {
+    .container {
+      max-width: 85%;
+    }
+  
+    html {
+      font-size: 72%;
+    }
+  
+    /* Hero Section */
+  
+    .dividor_hero {
+      margin-top: 5%;
+      margin-bottom: 3%;
+    }
+  
+    .header_section {
+      height: 84vh;
+    }
+    
+    .hero_section_information {
+      top: 15dvw;
+    }
+
+    .accordion {
+      padding: 4.9rem 8.6rem;
+
+    }
+
+    body .body_section {
+     padding: 4rem;
+    
+    }
+
+    header {
+      width: 95%;
+      left: 2.5%;
+    }
+    
+    /* circle css starts here */
+    .circle {
+      width: 23rem; 
+      height: 23rem; 
+      border-radius: 50%;
+      position: absolute;
+      top: 1.5%;
+      right: -5%;
+      transform: rotate(15deg);
+      z-index: 11;
+     
+    }
+    
+    .circle::before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      height: 100%;
+      background: repeating-linear-gradient(
+          to right,
+          rgb(188,177,160, 0.5) ,
+          rgb(188,177,160, 0.5) ,
+           .3rem,
+          transparent 0.2rem,
+          transparent 0.8rem
+      );
+      border-radius: 50%;
+    }
+    
+    .circle_top {
+      width: 50rem; 
+      height: 50rem; 
+      border-radius: 50%;
+      position: absolute;
+      top: -7rem;
+      right: 30%;
+      transform: rotate(15deg);
+      z-index: -1;
+     
+    }
+    
+    .circle_top::before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      height: 100%;
+      background: repeating-linear-gradient(
+          to right,
+          rgb(188,177,160, 0.2) ,
+          rgb(188,177,160, 0.2) ,
+           0.5rem,
+          transparent 0.2rem,
+          transparent 0.8rem
+      );
+      border-radius: 50%;
+    }
+    
+    
+    .circle_bottom {
+      width: 33rem; 
+      height: 33rem; 
+      border-radius: 50%;
+      position: absolute;
+      left: -14%;
+      bottom: -2%;
+      transform: rotate(15deg);
+      z-index: 10;
+     
+    }
+    
+    .circle_bottom::before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      height: 100%;
+      background: repeating-linear-gradient(
+          to right,
+          rgb(188,177,160, 0.5) ,
+          rgb(188,177,160, 0.5) ,
+           0.5rem,
+          transparent 0.2rem,
+          transparent 0.8rem
+      );
+      border-radius: 50%;
+    }
+    
+    /* Hero Secion Starts  */
+    .hero_section_information {
+      margin: 6% 0;
+    }
+
+    /* Her Section Ends */
+    
+  
+  /* Our Instructors */
+  .our_instructors_images {
+    gap: 1rem;
+  }
+  
+  .our_instructors_image {
+    height: 32vh;
+    width: 12rem;
+  }
+  
+  
+  .our_instructors_images .our_instructors_image img {
+    right: 1%;
+    width: 21vh;
+  }
+}
